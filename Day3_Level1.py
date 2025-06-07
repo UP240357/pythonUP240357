@@ -6,26 +6,34 @@ height = (1.70)
 
 #area de un triangulo
 print("Area de un triangulo")
-BASE_Triangulo = float(input("dame la base :"))
-ALTURA_Triang = float(input("dame el area :"))
+BASE_Triangulo = float(input("dame la base del triangulo:"))
+ALTURA_Triang = float(input("dame el area del triangulo:"))
 
-area = 0.5*BASE_Triangulo*ALTURA_Triang
-print(area)
+Area_triangulo = 0.5*BASE_Triangulo*ALTURA_Triang
+print("el area es:",Area_triangulo)
 
-#area de un triangulo
+#perimetro de un triangulo
 print("Perimetro de un triangulo")
-side_a = float(input("dame el lado a :"))
-side_b = float(input("dame el lado b :"))
-side_c = float(input("dame el lado c :"))
+side_a = float(input("dame el lado a del triangulo:"))
+side_b = float(input("dame el lado b del triangulo:"))
+side_c = float(input("dame el lado c del triangulo:"))
 
-perimetro = side_a+side_b+side_c
-print("el perimetro es ",perimetro)
+Perimetro_triangulo = side_a+side_b+side_c
+print("el perimetro es ",Perimetro_triangulo)
 
 #area y perimetro de un rectangulo
 print("Area y Perimetro de un rectangulo")
-Ancho_rectangulo = float(input("Dame el ancho :"))
-Alto_rectangulo = float(input("Dame el alto :"))
+Ancho_rectangulo = float(input("Dame el ancho del rectangulo:"))
+Alto_rectangulo = float(input("Dame el alto  del rectangulo:"))
 
 Area_rectangulo = Ancho_rectangulo*Alto_rectangulo
 Perimetro_rectangulo = 2*(Ancho_rectangulo+Alto_rectangulo)
-print("el area es :",int(Area_rectangulo),"y el perimetro es:",int(Perimetro_rectangulo))
+print("el area es :",Area_rectangulo,"y el perimetro es:",Perimetro_rectangulo)
+
+#area y circunferencia de un circulo
+Radio_circulo = float(input("Dame el radio del circulo :"))
+
+Area_circulo = 3.14*(Radio_circulo**2)
+circunferencia_circulo = 2*3.14*Radio_circulo
+
+print("el area del ciruclo es:",Area_circulo,"y su circunferencia es:",circunferencia_circulo)

@@ -1,9 +1,5 @@
-#encontrar pendiente y distancia eucladiana
-print("Pendiente")
-x1,y1 = 2, 2
-x2,y2 = 6,10
-Pendiente = (y2-y1)/(x2-x1)
-dist_eucladiana = ((x2-x1)**2+(y2-y1)**2)**0.5
-
-print("La pendiente es:",Pendiente)
-print("La distancia eucladiana es:",dist_eucladiana)
+#calcular el valor de y en (y= x^2 + 6x + 9)
+print("Encontrar el valor de y en una ecuacion")
+x_Valor_dado = float(input("Dame el valor de x:"))
+y_ecuacion1 = x_Valor_dado**2 + 6*x_Valor_dado + 9
+print("El valor de y cuando x vale",x_Valor_dado, "es:",y_ecuacion1)

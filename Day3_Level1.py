@@ -41,12 +41,13 @@ print("el area del ciruclo es:",Area_circulo,"y su circunferencia es:",circunfer
 #Intersecciones de X y Y en y = 2x - 2
 print("Intersecciones de X y Y")
     #datos de la formula mx + b
-m = 2
+m_1 = 2
 b = -2
 
     # Calculo de la interseccion en X (y = 0)
-interseccion_X = -b/m
+interseccion_X = -b/m_1
 
+print("La pendiente es:",m_1)
 print("se interseca y en (0,",b")")
 print("se intersecta x en (",interseccion_X,",0)")
 
@@ -54,8 +55,22 @@ print("se intersecta x en (",interseccion_X,",0)")
 print("Pendiente")
 x1,y1 = 2, 2
 x2,y2 = 6,10
-Pendiente = (y2-y1)/(x2-x1)
+m_2 = (y2-y1)/(x2-x1)
 dist_eucladiana = ((x2-x1)**2+(y2-y1)**2)**0.5
 
-print("La pendiente es:",Pendiente)
+print("La pendiente es:",m_2)
 print("La distancia eucladiana es:",dist_eucladiana)
+
+#comparacion de pendientes
+if m_1==m_2:
+    print("Son iguales")
+elif m_1>m_2:
+    print("La primer pendiente es mas grande")
+else:
+    print("La segunda pendientes es mas grande")
+
+#calcular el valor de y en (y= x^2 + 6x + 9)
+print("Encontrar el valor de y en una ecuacion")
+x_Valor_dado = float(input("Dame el valor de x:"))
+y_ecuacion1 = x_Valor_dado**2 + 6*x_Valor_dado + 9
+print("El valor de y cuando x vale",x_Valor_dado, "es:",y_ecuacion1)

@@ -1,7 +1,6 @@
-#calcula el pago por horas de una persona
-print("calcula el pago por horas de una persona")
-Horas_trabajadas = float(input("¿Cuantas horas trabajo?:"))
-Pago_horas = float(input("¿Cuanto le pagan por hora?:"))
-
-Pago_Total = Horas_trabajadas*Pago_horas
-print("su pago sera de: $",Pago_Total)
+#tabla dada por la instruccion
+print("tabla dada por la instruccion")
+print(1 1 1 1 1)
+print(2 1 2 4 8)
+print(3 1 3 9 27)
+print(4 1 4 16 64)

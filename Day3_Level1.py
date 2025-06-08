@@ -140,4 +140,18 @@ Pago_horas = float(input("¿Cuanto le pagan por hora?:"))
 Pago_Total = Horas_trabajadas*Pago_horas
 print("su pago den la semana sera de: $",Pago_Total)
 
-#
+#segundos que ha vivido una persona basada en los años introducidos
+print("calculo de los segundos que ha vivido una persona basada en los años introducidos")
+años_vividos = int(input("¿Cuanto años ha vivido?"))
+segundos_vividos = años_vividos*31536000
+
+print("usted ha vivido:",segundos_vividos,"segundos")
+
+#tabla dada por la instruccion
+print("tabla dada por la instruccion")
+print(1, 1, 1, 1, 1)
+print(2, 1, 2, 4, 8)
+print(3, 1, 3, 9, 27)
+print(4, 1, 4, 16, 64)
+print(5, 1, 5, 25, 125)
+

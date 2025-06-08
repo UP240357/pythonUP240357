@@ -74,3 +74,53 @@ print("Encontrar el valor de y en una ecuacion")
 x_Valor_dado = float(input("Dame el valor de x:"))
 y_ecuacion1 = x_Valor_dado**2 + 6*x_Valor_dado + 9
 print("El valor de y cuando x vale",x_Valor_dado, "es:",y_ecuacion1)
+
+#longitud y comparacion falsa de "python" y "dragon"
+print("longitud y comparacion falsa de python y dragon")
+print("Longitud de python :",len("python"))
+print("Longitud de gragon :",len("dragon"))
+comparacion_falsa = len("python") > len("dragon")
+print("comparacion:")
+print("¿son diferentes?",comparacion_falsa)
+
+#busqueda de la palbra "on" en las dos palabras
+print("busqueda de la palbra on en las dos palabras")
+busqueda_on = ("on" in "python")and("on" in "dragon")
+print("Se encuentra on en ambas palabras?",busqueda_on)
+
+#buscar "jargon" en una sentencia
+print("buscar jargon en una sentencia")
+busqueda_jargon = ("jargon" in "I hope this course is not full of jargon")
+print("Se encuentra la palabra jargon en la sentencia?",busqueda_jargon)
+
+#busqueda de la palbra "on" no debe estar en las dos palabras
+print("busqueda de la palbra on no debe estar en las dos palabras")
+busqueda_on_not = ("on" not in "python")and("on" not in "dragon")
+print("No se encuentra on en ambas palabras?",busqueda_on_not)
+
+#longitud de la palabra python y hacerla string
+print("longitud de la palabra python y hacerla string")
+longitu_python = len("python")
+longitu_python_float = float(longitu_python)
+longitu_python_string = str(longitu_python)
+
+print("el ancho de python es:",longitu_python)
+print("en float:",longitu_python_float)
+print("en string:",longitu_python_string)
+
+#modulo de 2
+print("Modulo de 2")
+Valor_evaluable = float(input("Dame el valor a evaluar:"))
+if (Valor_evaluable % 2) == 0:
+    print(Valor_evaluable,"es par")
+else:
+    print(Valor_evaluable,"es impar")
+
+#floor division 7/3 igual a int 2.7
+print("floor division 7/3 igual a int 2.7")
+floor_division = 7//3
+Valor = int(2.7)
+
+print("¿Son iguales?",floor_division==Valor)
+
+#

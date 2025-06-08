@@ -123,4 +123,21 @@ Valor = int(2.7)
 
 print("¿Son iguales?",floor_division==Valor)
 
+#comparacion de tipos de datos "10" y 10
+print("comparacion de tipos de datos 10 y 10")
+print("son iguales?",type("10")==type(10))
+
+#comparacion de int(9.8) y 10
+print("comparacion de int(9.8) y 10")
+print("son iguales?",int(float("9.8"))==10) #primero se hace float por que int no le acepta de una vez los valores con punto decimal,
+                                            #ya despues podemos usar int para el redondeo
+
+#calcula el pago por horas de una persona
+print("calcula el pago por horas de una persona")
+Horas_trabajadas = float(input("¿Cuantas horas trabajo esta semana?:"))
+Pago_horas = float(input("¿Cuanto le pagan por hora?:"))
+
+Pago_Total = Horas_trabajadas*Pago_horas
+print("su pago den la semana sera de: $",Pago_Total)
+
 #

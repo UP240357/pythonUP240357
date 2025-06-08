@@ -1,6 +1,7 @@
-#floor division 7/3 igual a int 2.7
-print("floor division 7/3 igual a int 2.7")
-floor_division = 7//3
-Valor = int(2.7)
+#calcula el pago por horas de una persona
+print("calcula el pago por horas de una persona")
+Horas_trabajadas = float(input("¿Cuantas horas trabajo?:"))
+Pago_horas = float(input("¿Cuanto le pagan por hora?:"))
 
-print("¿Son iguales?",floor_division==Valor)
+Pago_Total = Horas_trabajadas*Pago_horas
+print("su pago sera de: $",Pago_Total)

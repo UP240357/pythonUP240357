@@ -1,10 +1,9 @@
-#intersepciones de X y Y 
-print("intersepciones de X y Y")
-#datos
-m = 2
-b = -2
+#encontrar pendiente y distancia eucladiana
+print("Pendiente")
+x1,y1 = 2, 2
+x2,y2 = 6,10
+Pendiente = (y2-y1)/(x2-x1)
+dist_eucladiana = ((x2-x1)**2+(y2-y1)**2)**0.5
 
-intersepcion_X = -b/m
-
-print("se interseca y en (0,",b")")
-print("se intersecta x en (",intersepcion_X,",0)")
+print("La pendiente es:",Pendiente)
+print("La distancia eucladiana es:",dist_eucladiana)

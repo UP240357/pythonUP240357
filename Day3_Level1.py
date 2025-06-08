@@ -50,4 +50,12 @@ interseccion_X = -b/m
 print("se interseca y en (0,",b")")
 print("se intersecta x en (",interseccion_X,",0)")
 
+#encontrar pendiente y distancia eucladiana
+print("Pendiente")
+x1,y1 = 2, 2
+x2,y2 = 6,10
+Pendiente = (y2-y1)/(x2-x1)
+dist_eucladiana = ((x2-x1)**2+(y2-y1)**2)**0.5
 
+print("La pendiente es:",Pendiente)
+print("La distancia eucladiana es:",dist_eucladiana)

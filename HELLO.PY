@@ -1,7 +1,10 @@
-#area y circunferencia de un circulo
-Radio_circulo = float(input("Dame el area del circulo :"))
+#intersepciones de X y Y 
+print("intersepciones de X y Y")
+#datos
+m = 2
+b = -2
 
-Area_circulo = 3.14*(Radio_circulo**2)
-circunferencia_circulo = 2*3.14*Radio_circulo
+intersepcion_X = -b/m
 
-print("el area del ciruclo es:",Area_circulo,"y su circunferencia es:",circunferencia_circulo)
+print("se interseca y en (0,",b")")
+print("se intersecta x en (",intersepcion_X,",0)")

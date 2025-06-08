@@ -37,3 +37,17 @@ Area_circulo = 3.14*(Radio_circulo**2)
 circunferencia_circulo = 2*3.14*Radio_circulo
 
 print("el area del ciruclo es:",Area_circulo,"y su circunferencia es:",circunferencia_circulo)
+
+#Intersecciones de X y Y en y = 2x - 2
+print("Intersecciones de X y Y")
+    #datos de la formula mx + b
+m = 2
+b = -2
+
+    # Calculo de la interseccion en X (y = 0)
+interseccion_X = -b/m
+
+print("se interseca y en (0,",b")")
+print("se intersecta x en (",interseccion_X,",0)")
+
+

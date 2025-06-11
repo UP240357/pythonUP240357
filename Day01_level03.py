@@ -1,6 +1,6 @@
 # Day 1 Level 3 - Ruiz Clemente Jorge Alberto
 
-
+#ejemplos de tipos de datos
 print(69)                       #int
 print(1.5)                      #float
 print(5j)                       #complex

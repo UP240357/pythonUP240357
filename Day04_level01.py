@@ -74,7 +74,8 @@ print(company_python)                                  #primero busca y luego ca
 Change Python for Everyone to Python for All using the replace 
 method or other methods.
 """
-print(company_python.replace("All", "Everyone"))
+company_python = company_python.replace("All", "Everyone")
+print(company_python)
 
 """ 13
 Split the string 'Coding For All' using space 
@@ -111,3 +112,10 @@ print(company[10])
 Create an acronym or an abbreviation for the name 
 'Python For Everyone'.
 """
+company_python_split = company_python.split()
+
+Primera = company_python_split[0][0]
+Segunda = company_python_split[1][0]
+Tercera = company_python_split[2][0]
+
+print(f"{Primera+Segunda+Tercera}")

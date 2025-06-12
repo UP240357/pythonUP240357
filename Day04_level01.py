@@ -67,11 +67,47 @@ print(company.index("Coding"))  #arroja la posicion en la que se encuentra la or
 """ 11
 Replace the word coding in the string 'Coding For All' to Python.
 """
-company_python = company.replace("Python", "coding")    #remplazamos una palabra
-print(company_python)                                   #primero el cambio y luego la que cambia
+company_python = company.replace("Coding","Python")    #remplazamos una palabra
+print(company_python)                                  #primero busca y luego cambia
 
 """ 12
 Change Python for Everyone to Python for All using the replace 
 method or other methods.
 """
 print(company_python.replace("All", "Everyone"))
+
+""" 13
+Split the string 'Coding For All' using space 
+as the separator (split()) .
+"""
+print(company.split())
+
+""" 14
+"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
+split the string at the comma.
+"""
+companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(companies.split(", "))
+
+""" 15
+What is the character at index 0 in the string Coding For All.
+"""
+print(company[0])
+
+""" 16
+What is the last index of the string Coding For All.
+"""
+last_leter_company = len(company)-1
+print(company[last_leter_company])
+
+print(company[-1])  #otra forma de encontrar la ultima letra
+
+""" 17
+What character is at index 10 in "Coding For All" string.
+"""
+print(company[10])
+
+""" 18
+Create an acronym or an abbreviation for the name 
+'Python For Everyone'.
+"""

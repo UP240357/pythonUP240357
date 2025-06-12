@@ -33,5 +33,8 @@ len() method and print().
 print(len(company))
 
 """ 6
-
+Change all the characters to uppercase letters 
+using upper() method.
 """
+company_upper = company.upper()
+print(company_upper)

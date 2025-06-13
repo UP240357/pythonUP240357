@@ -163,5 +163,34 @@ single_string_4 = "You cannot end a sentence with because because because is a c
 print(single_string_4.find("because"))
 
 """ 24
+Use rindex to find the position of the last occurrence of 
+the word because in the following sentence: 'You cannot end a 
+sentence with because because because is a conjunction'
+"""
+print(single_string_4.rfind("because"))
 
+""" 25
+Slice out the phrase 'because because because' in the 
+following sentence: 'You cannot end a sentence with because 
+because because is a conjunction'
+"""
+print(single_string_4[:31]+single_string_4[48:])   #imprime desde hasta, (concatena), desde hasta
+#dejarlos vacios significa [:31] = del inicio hasta 31 y [48:] = del 48 hasta el final
+
+""" 26
+Find the position of the first occurrence of the word 'because' 
+in the following sentence: 'You cannot end a sentence with because 
+because because is a conjunction'
+"""
+print(single_string_4.index("because"))
+
+""" 27
+Slice out the phrase 'because because because' in the following 
+sentence: 'You cannot end a sentence with because because because 
+is a conjunction'
+"""
+print(single_string_4[:31]+single_string_4[48:])
+
+""" 28
+Does ''Coding For All' start with a substring Coding?
 """

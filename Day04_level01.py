@@ -148,11 +148,20 @@ print(company.find("F"))
 Use rfind to determine the position of the last 
 occurrence of l in Coding For All People.
 """
-print(company.rfind("l"))
+single_string_3 = company+" People"
+
+print(single_string_3.rfind("l"))
 
 """23
 Use index or find to find the position of the first 
 occurrence of the word 'because' in the following sentence: 
 'You cannot end a sentence with because because because is a 
 conjunction'
+"""
+single_string_4 = "You cannot end a sentence with because because because is a conjunction"
+
+print(single_string_4.find("because"))
+
+""" 24
+
 """

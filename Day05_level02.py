@@ -4,16 +4,8 @@
 """ 1
 The following is a list of 10 students ages:
     ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-1.1 Sort the list and find the min and max age
-1.2 Add the min age and the max age again to the list
-1.3 Find the median age (one middle item or two middle items 
-    divided by two)
-1.4 Find the average age (sum of all items divided by their number )
-1.5 Find the range of the ages (max minus min)
-1.6 Compare the value of (min - average) and (max - average), use 
-    abs() method
 """
-"""1.1"""
+"""1.1 Sort the list and find the min and max age"""
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 print(ages)
 ages.sort()
@@ -23,27 +15,30 @@ min_age = ages[0]
 print(f"Max = {min_age}")
 print(f"Min = {max_age}")
 
-"""1.2"""
+"""1.2 Add the min age and the max age again to the list"""
 ages.append(max_age)
 ages.append(min_age)
 print(ages)
 
-"""1.3"""
+"""1.3  Find the median age (one middle item or two middle items 
+        divided by two)"""
 ages.sort()
-middle = len(ages)//2
+
+middle = (len(ages)+1)//2
 print(f"Length = {len(ages)}")
 print(f"middle = {ages[middle:middle+1]}")
 
-"""1.4"""
+"""1.4 Find the average age (sum of all items divided by their number )"""
 average_age = (sum(ages))/len(ages)
 print(average_age)
 
-"""1.5"""
+"""1.5 Find the range of the ages (max minus min)"""
 print(f"Max     = {max_age}")
 print(f"Min     = {min_age}")
 print(f"Range   = {max_age-min_age}")
 
-"""1.6"""
+"""1.6  Compare the value of (min - average) and (max - average), use 
+        abs() method"""
 fts_comparation = min_age - average_age
 snd_comparation = max_age - average_age
 

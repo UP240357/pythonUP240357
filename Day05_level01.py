@@ -83,50 +83,73 @@ print(it_companies)
 """ 14
 Join the it_companies with a string '#;  '
 """
+print("#; ".join(it_companies))
 
 """ 15
 Check if a certain company exists in the it_companies list.
 """
+print("IBM" in it_companies)
+print("Google" in it_companies)
 
 """ 16
 Sort the list using sort() method
 """
+it_companies.sort()
+print(it_companies)
 
 """ 17
 Reverse the list in descending order using reverse() method
 """
+it_companies.reverse()
+print(it_companies)
 
 """ 18
 Slice out the first 3 companies from the list
 """
+first_3 = it_companies[:3]
+print(first_3)
 
 """ 19
 Slice out the last 3 companies from the list
 """
+last_3 = it_companies[-3:]
+print(last_3)
 
 """ 20
 Slice out the middle IT company or companies from the list
 """
+middle = len(it_companies)//2
+print(it_companies[middle:middle+1])
 
 """ 21
 Remove the first IT company from the list
 """
+del it_companies[0]
+print(it_companies)
 
 """ 22
 Remove the middle IT company or companies from the list
 """
+middle = len(it_companies)//2
+del it_companies [middle:middle+1]
+print(it_companies)
 
 """ 23
 Remove the last IT company from the list
 """
+del it_companies[-1]
+print(it_companies)
 
 """ 24
 Remove all IT companies from the list
 """
+del it_companies[:]
+print(it_companies)
 
 """ 25
 Destroy the IT companies list
 """
+del it_companies
 
 """ 26
 Join the following lists:
@@ -134,9 +157,18 @@ Join the following lists:
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
 """
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+join = front_end + back_end
+print(f"{front_end} + {back_end}\n= {join}")
 
 """ 27
 After joining the lists in question 26. Copy the joined list and 
 assign it to a variable full_stack, then insert Python and SQL 
 after Redux.
 """
+full_stack = join
+redux = full_stack.index("Redux")
+position = redux+1
+full_stack[position:position] = ["Python", "SQL"]
+print(full_stack)

@@ -194,3 +194,55 @@ print(single_string_4[:31]+single_string_4[48:])
 """ 28
 Does ''Coding For All' start with a substring Coding?
 """
+
+""" 29
+Does 'Coding For All' end with a substring coding?
+"""
+
+""" 30
+'   Coding For All      '  , remove the left and right 
+trailing spaces in the given string.
+"""
+
+""" 31
+Which one of the following variables return True when we use the 
+method isidentifier():
+    30DaysOfPython
+    thirty_days_of_python
+"""
+
+""" 32
+The following list contains the names of some of python libraries: 
+['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list 
+with a hash with space string.
+"""
+
+""" 33
+Use the new line escape sequence to separate the following sentences.
+    I am enjoying this challenge.
+    I just wonder what is next.
+"""
+
+""" 34
+Use a tab escape sequence to write the following lines.
+    Name      Age     Country   City
+    Asabeneh  250     Finland   Helsinki
+"""
+
+""" 35
+Use the string formatting method to display the following:
+    radius = 10
+    area = 3.14 * radius ** 2
+    The area of a circle with radius 10 is 314 meters square.
+"""
+
+""" 36
+Make the following using string formatting methods:
+    8 + 6 = 14
+    8 - 6 = 2
+    8 * 6 = 48
+    8 / 6 = 1.33
+    8 % 6 = 2
+    8 // 6 = 1
+    8 ** 6 = 262144
+"""

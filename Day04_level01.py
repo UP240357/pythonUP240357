@@ -119,3 +119,40 @@ Segunda = company_python_split[1][0]
 Tercera = company_python_split[2][0]
 
 print(f"{Primera+Segunda+Tercera}")
+
+""" 19
+reate an acronym or an abbreviation for the name 
+'Coding For All'.
+"""
+company_split = company.split()
+
+Primera = company_split[0][0]
+Segunda = company_split[1][0]
+Tercera = company_split[2][0]
+
+print(f"{Primera+Segunda+Tercera}")
+
+""" 20
+Use index to determine the position of the first 
+occurrence of C in Coding For All.
+"""
+print(company.find("C"))
+
+""" 21
+Use index to determine the position of the first 
+occurrence of F in Coding For All.
+"""
+print(company.find("F"))
+
+""" 22
+Use rfind to determine the position of the last 
+occurrence of l in Coding For All People.
+"""
+print(company.rfind("l"))
+
+"""23
+Use index or find to find the position of the first 
+occurrence of the word 'because' in the following sentence: 
+'You cannot end a sentence with because because because is a 
+conjunction'
+"""

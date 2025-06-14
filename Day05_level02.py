@@ -7,9 +7,9 @@ The following is a list of 10 students ages:
 """
 """1.1 Sort the list and find the min and max age"""
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-print(ages)
+print(f"first list = {ages}")
 ages.sort()
-print(ages)
+print(f"\nfirst list sort = {ages}")
 max_age = ages[-1]
 min_age = ages[0]
 print(f"Max = {min_age}")
@@ -18,11 +18,12 @@ print(f"Min = {max_age}")
 """1.2 Add the min age and the max age again to the list"""
 ages.append(max_age)
 ages.append(min_age)
-print(ages)
+print(f"\nfirst list with max and min = {ages}")
 
 """1.3  Find the median age (one middle item or two middle items 
         divided by two)"""
 ages.sort()
+print(f"\nfirst list sort = {ages}")
 
 middle = (len(ages)+1)//2
 print(f"Length = {len(ages)}")
@@ -30,7 +31,7 @@ print(f"middle = {ages[middle:middle+1]}")
 
 """1.4 Find the average age (sum of all items divided by their number )"""
 average_age = (sum(ages))/len(ages)
-print(average_age)
+print(f"average = {average_age}")
 
 """1.5 Find the range of the ages (max minus min)"""
 print(f"Max     = {max_age}")
@@ -245,7 +246,7 @@ countries = [
   'Zambia',
   'Zimbabwe',
 ];
-print(f"\n{countries}")
+print(f"\nlist of countries\n= {countries}")
 middle = (len(countries)+1)//2
 print(f"length = {len(countries)}")
 print(f"middle = {countries[middle:middle+1]}")
@@ -264,5 +265,6 @@ print(f"\nfirst half = {fst_half}\n\nsecond half = {snd_half}")
 as scandic countries.
 """
 countries_p2 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+print(f"\nnew list of countries\n= {countries_p2}")
 fst_countri, snd_countri, trh_countri, *rest_countries = countries_p2
 print(f"1st = {fst_countri}\n2nd = {snd_countri}\n3th = {trh_countri}\nrest of countries = {rest_countries}")

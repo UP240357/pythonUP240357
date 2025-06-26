@@ -30,20 +30,29 @@ print(brothers)
 """ 5
 Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 """
-parents = ("Jorge","Norma")
+parents = ("Jorge Herrera","Norma")
 print(parents)
-familly = brothers+parents
-print(familly)
+family_members = brothers+parents
+print(family_members)
 
 #lvl 2
 
 """ 1
 Unpack siblings and parents from family_members
 """
+brothers = family_members[:2]
+parents = family_members[-2:]
+print(f"{brothers}\n{parents}")
 
 """ 2
 Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
 """
+fruits = ("Banana","Coconut","Pineapple")
+vegetables = ("Onion","Corn","Potato")
+animal_products = ("Milk","Cheese","Butter")
+food_stuff_tp = fruits+vegetables+animal_products
+print(f"{fruits}\n{vegetables}\n{animal_products}")
+print(food_stuff_tp)
 
 """ 3
 Change the about food_stuff_tp tuple to a food_stuff_lt list

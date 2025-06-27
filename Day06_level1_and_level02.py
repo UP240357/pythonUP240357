@@ -35,6 +35,8 @@ print(parents)
 family_members = brothers+parents
 print(family_members)
 
+print("---------------------------------------------------------------------------------------------------------------------")
+
 #lvl 2
 
 """ 1

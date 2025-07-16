@@ -40,7 +40,7 @@ Write a loop that makes seven calls to print(), so we get on the output the foll
 """
 x = 1
 print()
-while x <= 7:  #mientras que x sea menor o igual a 10 se imprime x y se suma 1
+while x <= 7:  #mientras que x sea menor o igual a 7 se imprime x veces el caracter "#"
     print(x*"#")
     x += 1
 
@@ -56,12 +56,14 @@ Use nested loops to create the following:
 # # # # # # # #
 # # # # # # # #
 """
+#metodo sin anidados
 x = 0
 print()
 while x < 8:
     print("# " * 8)
     x+= 1
 
+#metodo con anidados
 x = 0
 print()
 while x < 8:
@@ -69,7 +71,7 @@ while x < 8:
     while y < 8:
         print("#", end=" ")
         y+= 1
-    print()
+    print() #se imrpime un salto de linea
     x+= 1
 
 """ 5
@@ -87,20 +89,39 @@ Print the following pattern:
 9 x 9 = 81
 10 x 10 = 100
 """
-
+x = 0
+y = 0
+print()
+while x <=10:
+    print(f"{x} x {y} = {x*y}")
+    x += 1
+    y += 1
 
 """ 6
 Iterate through the list, 
 ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items."""
-
+lista = ['Python', 'Numpy','Pandas','Django', 'Flask']  #iteracion: tomar cada elemento e imprimirlo
+print()
+for element in lista:   #por cada elemento en la lista
+    print(element)      #imprime el elemento
 
 """ 7
 Use for loop to iterate from 0 to 100 and print only even numbers"""
-
+x = 0
+print()
+while x <= 100:
+    if x % 2 == 0:
+        print(x)
+    x += 1
 
 """ 8
 Use for loop to iterate from 0 to 100 and print only odd numbers"""
-
+x = 0
+print()
+while x <= 100:
+    if x % 2 != 0:
+        print(x)
+    x += 1
 
 #level 02
 """ 1

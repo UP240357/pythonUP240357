@@ -92,8 +92,8 @@ Print the following pattern:
 x = 0
 y = 0
 print()
-while x <=10:
-    print(f"{x} x {y} = {x*y}")
+while x <=10:                   #mientras que x sea menor o igual a 10
+    print(f"{x} x {y} = {x*y}") #imprime el valor de x, y y su multiplicacion
     x += 1
     y += 1
 
@@ -109,16 +109,16 @@ for element in lista:   #por cada elemento en la lista
 Use for loop to iterate from 0 to 100 and print only even numbers"""
 x = 0
 print()
-while x <= 100:
-    if x % 2 == 0:
-        print(x)
+while x <= 100:         #hacemos el ciclo mientras que x sea menor o igual a 100
+    if x % 2 == 0:      #para saber si un numero es par, se utiliza el modulo (%), usando x % 2 == (igual) 0
+        print(x)        #imprime ese numero
     x += 1
 
 """ 8
 Use for loop to iterate from 0 to 100 and print only odd numbers"""
 x = 0
 print()
-while x <= 100:
-    if x % 2 != 0:
+while x <= 100:         #un bucle exactamente igual que el anterior
+    if x % 2 != 0:      #usando el modulo (%), como x % 2 != (diferente) 0
         print(x)
     x += 1

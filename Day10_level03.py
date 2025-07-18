@@ -2931,12 +2931,10 @@ for i in range(min(10, len(language_count))):
 
 print()
 
-# Copia la lista para no modificar la original
 countries_copy = []
 for country in countries_data:
     countries_copy.append(country)
-
-# Ordenar por población de mayor a menor
+    
 for i in range(len(countries_copy)):
     for j in range(i+1, len(countries_copy)):
         if countries_copy[j]["population"] > countries_copy[i]["population"]:

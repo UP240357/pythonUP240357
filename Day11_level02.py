@@ -1,4 +1,4 @@
-# level 03
+# level 02
 
 """ 1
 Declare a function named evens_and_odds. 
